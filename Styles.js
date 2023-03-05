@@ -1,0 +1,151 @@
+import { StyleSheet } from "react-native";
+
+const Styles = StyleSheet.create({
+    container:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        backgroundColor:'#252527',
+    },
+    inputcontainer:{
+        flex:1,
+        alignItems:'center',
+        backgroundColor:'#252527',
+    },
+    headerBackImage:{
+        width:'100%',
+        height:"100%"
+    },
+    input:{
+        borderStyle:'solid',
+        borderWidth:1,
+        margin:15,
+        padding:15,
+        borderRadius:10,
+        width:'80%',
+        backgroundColor:'#AEAEB3',
+    },
+    passwordinput:{
+        borderStyle:'solid',
+        borderWidth:1,
+        margin:15,
+        padding:15,
+        borderRadius:10,
+        width:'80%',
+        alignSelf:'center', 
+        width:'80%', 
+        marginLeft:'10%',
+        backgroundColor:'#AEAEB3',
+    },
+    todoinput:{
+        alignContent:'center',
+        borderStyle:'solid',
+        borderBottomWidth:1,
+        margin:5,
+        padding:15,
+        paddingBottom:0,
+        borderRadius:10,
+        width:'100%',
+        height:'96%',
+        color:'white',
+    },
+    todoinputtouchable:{
+        width:'30%', 
+        bottom:7, 
+        left:20, 
+        backgroundColor:'#2E2E31', 
+        alignItems:'center', 
+        justifyContent:'center', 
+        borderRadius:15, 
+        padding:10
+    },
+    todoinputcolorplate:{
+        width:'30%', 
+        bottom:5,
+    },
+    touchable:{
+        backgroundColor:'blue',
+        padding:15,
+        marginBottom:20,
+        borderRadius:15,
+        width:"30%",
+        alignItems:'center',
+    },
+    touchableText:{
+        color:'white',
+        fontWeight:'bold',
+    },
+    flatlist:{
+        width:'100%'
+    },
+    flatlistoutercontainer:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        backgroundColor:'#252527',
+    },
+    flatlistinnercontainer:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        flexDirection:'row',
+        left:2,
+    },
+    flatlisttouchable:{
+        backgroundColor:'#252527',
+        width:'95%',
+        padding:10,
+        margin:4,
+        borderRadius:10,
+        borderColor:'#AEAEB3',
+        borderWidth:1,
+    },
+    flatlisttext:{
+        color:'white',
+        width:'94%'
+    },
+    flatlistdeleteicon:{
+        alignSelf:'center',
+        width:'8%',
+        right:5,
+        //right:35,
+        position:'absolute'
+    },
+    floatingbutton:{
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'absolute',
+        bottom: '2%',
+        right: '12%',
+        height: 60,
+        width: 60,
+        backgroundColor: '#2E2E31',
+        borderRadius: 150,
+    },
+    modalcontainer:{
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        //marginTop:"90%",
+        top:'75%',
+        width:'100%',
+        height:"15%",
+        flexDirection:'row',
+        backgroundColor:'#2E2E31',
+        position:'absolute',
+    },
+    modaltouchable:{
+        width:"13%",
+        height:"46%",
+        borderRadius:30,
+        borderWidth:1,
+        borderColor:'#AEAEB3',
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    settingstext:{
+        color:'white',
+        fontWeight:'bold',
+    },
+})
+
+export {Styles};
